@@ -17,6 +17,7 @@ body {
 }
 
 header {
+    position: relative
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -157,4 +158,31 @@ footer {
 
 .contact-buttons a {
     margin-top: 0;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 30px;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.language-switcher a {
+    margin: 0;
+    padding: 4px 6px;
+    background: transparent;
+    color: #9999a8;
+    font-size: 0.85rem;
+}
+
+.language-switcher a:hover {
+    background: transparent;
+    color: #ffffff;
+    transform: none;
+}
+
+.language-switcher span {
+    color: #444450;
 }
