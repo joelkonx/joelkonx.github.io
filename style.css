@@ -186,3 +186,89 @@ footer {
 .language-switcher span {
     color: #444450;
 }
+
+/* ================================
+   INDIE FEST CHILE 2026
+================================ */
+
+.indie-fest {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    margin: 40px 0;
+    padding: 24px;
+
+    background: #11111a;
+    border: 1px solid #292936;
+    border-radius: 8px;
+
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.indie-fest:hover {
+    border-color: #7456d8;
+    transform: translateY(-2px);
+}
+
+.indie-fest-image {
+    flex: 0 0 120px;
+}
+
+.indie-fest-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.indie-fest-info {
+    flex: 1;
+}
+
+.indie-fest-label {
+    margin: 0 0 5px 0;
+
+    color: #a88cff !important;
+    font-size: 0.75rem !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.indie-fest-info h3 {
+    margin: 0 0 8px 0;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.indie-fest-info p {
+    margin: 5px 0;
+}
+
+.indie-fest-date {
+    margin-top: 12px !important;
+    color: #777787 !important;
+    font-size: 0.85rem !important;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .indie-fest {
+        align-items: flex-start;
+        gap: 18px;
+        padding: 20px;
+    }
+
+    .indie-fest-image {
+        flex: 0 0 85px;
+    }
+
+    .indie-fest-info h3 {
+        font-size: 1.15rem;
+    }
+
+}
+
